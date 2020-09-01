@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11ec416d-8a48-4b91-ba5e-9097308e435f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/Compra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/CompraTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/Categoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/CategoriaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/caelum/xstream/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/caelum/xstream/Produto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/caelum/xstream/ProdutoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/caelum/xstream/ProdutoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/CompraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/CompraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/caelum/xstream/CompraTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/caelum/xstream/CompraTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -22,7 +20,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,6 +40,8 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/Produto.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/Compra.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/CompraTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/Categoria.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/CategoriaTest.java" />
       </list>
     </option>
   </component>
@@ -66,7 +66,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,11 +73,59 @@
               <item name="xstream" type="b2602c69:ProjectViewProjectNode" />
               <item name="xstream" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="xstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xstream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xstream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xstream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xstream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xstream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xstream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xstream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xstream" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xstream" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xstream" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -101,7 +148,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CompraTest.deveGerarUmaCompraComCadaUmDosProdutosDeUmXML">
+  <component name="RunManager" selected="JUnit.CategoriaTest.deveSerializarUmCiclo">
+    <configuration name="CategoriaTest.deveSerializarUmCiclo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xstream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.caelum.xstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.caelum.xstream" />
+      <option name="MAIN_CLASS_NAME" value="br.com.caelum.xstream.CategoriaTest" />
+      <option name="METHOD_NAME" value="deveSerializarUmCiclo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompraTest.deveGerarCadaUmDosProdutosDeUmaCompra" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xstream" />
       <extension name="coverage">
@@ -134,6 +197,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CompraTest.deveSerializarDuasGeladeirasIguais" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xstream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.caelum.xstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.caelum.xstream" />
+      <option name="MAIN_CLASS_NAME" value="br.com.caelum.xstream.CompraTest" />
+      <option name="METHOD_NAME" value="deveSerializarDuasGeladeirasIguais" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProdutoTest.deveGerarXmlComNomePrecoDescricaoCodigoAdequados" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xstream" />
       <extension name="coverage">
@@ -152,6 +231,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CategoriaTest.deveSerializarUmCiclo" />
+        <item itemvalue="JUnit.CompraTest.deveSerializarDuasGeladeirasIguais" />
         <item itemvalue="JUnit.CompraTest.deveGerarUmaCompraComCadaUmDosProdutosDeUmXML" />
         <item itemvalue="JUnit.CompraTest.deveGerarCadaUmDosProdutosDeUmaCompra" />
         <item itemvalue="JUnit.ProdutoTest.deveGerarXmlComNomePrecoDescricaoCodigoAdequados" />
@@ -180,15 +261,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProdutoTest_deveGerarXmlComNomePrecoDescricaoCodigoAdequados - 2020.08.31 at 22h 28m 21s.xml">
-      <configuration name="ProdutoTest.deveGerarXmlComNomePrecoDescricaoCodigoAdequados" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProdutoTest_deveGerarXmlComNomePrecoDescricaoCodigoAdequados - 2020.08.31 at 22h 28m 46s.xml">
-      <configuration name="ProdutoTest.deveGerarXmlComNomePrecoDescricaoCodigoAdequados" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProdutoTest_deveGerarXmlComNomePrecoDescricaoCodigoAdequados - 2020.08.31 at 22h 33m 01s.xml">
-      <configuration name="ProdutoTest.deveGerarXmlComNomePrecoDescricaoCodigoAdequados" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProdutoTest_deveGerarXmlComNomePrecoDescricaoCodigoAdequados - 2020.08.31 at 22h 58m 35s.xml">
       <configuration name="ProdutoTest.deveGerarXmlComNomePrecoDescricaoCodigoAdequados" configurationId="JUnit" />
     </history-entry>
@@ -210,11 +282,20 @@
     <history-entry file="CompraTest_deveGerarUmaCompraComCadaUmDosProdutosDeUmXML - 2020.09.01 at 11h 54m 34s.xml">
       <configuration name="CompraTest.deveGerarUmaCompraComCadaUmDosProdutosDeUmXML" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CompraTest_deveSerializarDuasGeladeirasIguais - 2020.09.01 at 12h 10m 03s.xml">
+      <configuration name="CompraTest.deveSerializarDuasGeladeirasIguais" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CategoriaTest_deveSerializarUmCiclo - 2020.09.01 at 12h 24m 39s.xml">
+      <configuration name="CategoriaTest.deveSerializarUmCiclo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CategoriaTest_deveSerializarUmCiclo - 2020.09.01 at 12h 26m 56s.xml">
+      <configuration name="CategoriaTest.deveSerializarUmCiclo" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28971255" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29425114" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -248,16 +329,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/CompraTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/Compra.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -297,6 +368,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/thoughtworks/xstream/xstream/1.4.12/xstream-1.4.12.jar!/com/thoughtworks/xstream/core/TreeMarshaller.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/CategoriaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/Categoria.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/CompraTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="73" column="49" lean-forward="true" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
