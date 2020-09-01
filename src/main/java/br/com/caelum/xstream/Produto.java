@@ -1,5 +1,7 @@
 package br.com.caelum.xstream;
 
+import java.util.Objects;
+
 public class Produto {
 
     private String nome;
@@ -44,5 +46,21 @@ public class Produto {
 
     public void setCodigo(int codigo) {
         this.codigo = codigo;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Produto produto = (Produto) o;
+        return Double.compare(produto.preco, preco) == 0 &&
+                codigo == produto.codigo &&
+                Objects.equals(nome, produto.nome) &&
+                Objects.equals(descricao, produto.descricao);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nome, preco, descricao, codigo);
     }
 }
