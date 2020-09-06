@@ -4,6 +4,7 @@ import com.thoughtworks.xstream.XStream;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 import static org.junit.Assert.assertEquals;
@@ -32,6 +33,57 @@ public class CompraTest {
         Compra compra = compraComGeladeiraEFerro();
 
         XStream xstream = xstreamParaCompraEProduto();
+
+        String xmlGerado = xstream.toXML(compra);
+        assertEquals(xmlEsperado, xmlGerado);
+    }
+
+    @Test
+    public void deveSerializarLivroEMusica() {
+        String xmlEsperado = "<compra>\n" +
+                "  <id>15</id>\n" +
+                "  <produtos class=\"linked-list\">\n" +
+                "    <livro codigo=\"1589\">\n" +
+                "      <nome>O Pássaro Raro</nome>\n" +
+                "      <preco>100.0</preco>\n" +
+                "      <descrição>dez histórias sobre a existência</descrição>\n" +
+                "    </livro>\n" +
+                "    <musica codigo=\"1590\">\n" +
+                "      <nome>Meu Passeio</nome>\n" +
+                "      <preco>100.0</preco>\n" +
+                "      <descrição>música livre</descrição>\n" +
+                "    </musica>\n" +
+                "  </produtos>\n" +
+                "</compra>";
+
+        Compra compra = compraComLivroEMusica();
+
+        XStream xstream = xstreamParaCompraEProduto();
+
+        String xmlGerado = xstream.toXML(compra);
+        assertEquals(xmlEsperado, xmlGerado);
+    }
+
+    @Test
+    public void deveSerializarColecoesImplicitas() {
+        String xmlEsperado = "<compra>\n" +
+                "  <id>15</id>\n" +
+                "  <produto codigo=\"1587\">\n" +
+                "    <nome>geladeira</nome>\n" +
+                "    <preco>1000.0</preco>\n" +
+                "    <descrição>geladeira duas portas</descrição>\n" +
+                "  </produto>\n" +
+                "  <produto codigo=\"1588\">\n" +
+                "    <nome>ferro de passar</nome>\n" +
+                "    <preco>100.0</preco>\n" +
+                "    <descrição>ferro com vaporizador</descrição>\n" +
+                "  </produto>\n" +
+                "</compra>";
+
+        Compra compra = compraComGeladeiraEFerro();
+
+        XStream xstream = xstreamParaCompraEProduto();
+        xstream.addImplicitCollection(Compra.class, "produtos");
 
         String xmlGerado = xstream.toXML(compra);
         assertEquals(xmlEsperado, xmlGerado);
@@ -117,10 +169,22 @@ public class CompraTest {
         return new Compra(15, produtos);
     }
 
+    private Compra compraComLivroEMusica() {
+        Produto livro = new Livro("O Pássaro Raro", 100.0, "dez histórias sobre a existência", 1589);
+        Produto musica = new Musica("Meu Passeio", 100.0, "música livre", 1590);
+
+        List<Produto> produtos = new LinkedList<>();
+        produtos.add(livro);
+        produtos.add(musica);
+        return new Compra(15, produtos);
+    }
+
     private XStream xstreamParaCompraEProduto() {
         XStream xstream = new XStream();
         xstream.alias("compra", Compra.class);
         xstream.alias("produto", Produto.class);
+        xstream.alias("livro", Livro.class);
+        xstream.alias("musica", Musica.class);
         xstream.aliasField("descrição", Produto.class, "descricao");
         xstream.useAttributeFor(Produto.class, "codigo");
         return xstream;
