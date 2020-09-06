@@ -26,4 +26,23 @@ public class ProdutoTest {
         assertEquals(xmlEsperado, xmlGerado);
     }
 
+    @Test
+    public void deveGerarXmlComNomePrecoDescricaoCodigoAdequadosConverterPreco() {
+        String xmlEsperado = "<produto codigo=\"1587\">\n" +
+                "  <nome>Geladeira</nome>\n" +
+                "  <preco>R$ 1.000,00</preco>\n" +
+                "  <descrição>Geladeira Duas Portas</descrição>\n" +
+                "</produto>";
+
+        Produto geladeira = new Produto("Geladeira", 1000.0, "Geladeira Duas Portas", 1587);
+
+        XStream xstream = new XStream();
+        xstream.alias("produto", Produto.class);
+        xstream.aliasField("descrição", Produto.class, "descricao");
+        xstream.registerLocalConverter(Produto.class, "preco", new PrecoSimplesConverter());
+        xstream.useAttributeFor(Produto.class, "codigo");
+        String xmlGerado = xstream.toXML(geladeira);
+
+        assertEquals(xmlEsperado, xmlGerado);
+    }
 }
