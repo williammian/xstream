@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11ec416d-8a48-4b91-ba5e-9097308e435f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/PrecoConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/PrecoSimplesConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/CompraDiferenteConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/ProdutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/ProdutoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/br/com/caelum/xstream/ProdutoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/br/com/caelum/xstream/ProdutoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/CompraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/CompraTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/CompraTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2219">
-              <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+            <state relative-caret-position="205">
+              <caret line="174" column="45" lean-forward="true" selection-start-line="174" selection-start-column="45" selection-end-line="174" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,10 +32,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/CompraDiferenteConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#779#780#0" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/Compra.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#936#937#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/ProdutoTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="41" column="79" selection-start-line="41" selection-start-column="79" selection-end-line="41" selection-end-column="79" />
+            <state relative-caret-position="161">
+              <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,10 +123,11 @@
         <option value="$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/CategoriaTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/Livro.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/Musica.java" />
-        <option value="$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/CompraTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/PrecoConverter.java" />
         <option value="$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/ProdutoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/PrecoSimplesConverter.java" />
+        <option value="$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/CompraTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/CompraDiferenteConverter.java" />
       </list>
     </option>
   </component>
@@ -212,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProdutoTest.deveGerarXmlComNomePrecoDescricaoCodigoAdequadosConverterPreco">
+  <component name="RunManager" selected="JUnit.CompraTest.deveUtilizarUmConversorTotalmenteCustomizado">
     <configuration name="CategoriaTest.deveSerializarUmCiclo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xstream" />
       <extension name="coverage">
@@ -245,22 +272,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompraTest.deveSerializarDuasGeladeirasIguais" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xstream" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.caelum.xstream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.caelum.xstream" />
-      <option name="MAIN_CLASS_NAME" value="br.com.caelum.xstream.CompraTest" />
-      <option name="METHOD_NAME" value="deveSerializarDuasGeladeirasIguais" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CompraTest.deveSerializarLivroEMusica" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xstream" />
       <extension name="coverage">
@@ -272,6 +283,22 @@
       <option name="PACKAGE_NAME" value="br.com.caelum.xstream" />
       <option name="MAIN_CLASS_NAME" value="br.com.caelum.xstream.CompraTest" />
       <option name="METHOD_NAME" value="deveSerializarLivroEMusica" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompraTest.deveUtilizarUmConversorTotalmenteCustomizado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xstream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.caelum.xstream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.caelum.xstream" />
+      <option name="MAIN_CLASS_NAME" value="br.com.caelum.xstream.CompraTest" />
+      <option name="METHOD_NAME" value="deveUtilizarUmConversorTotalmenteCustomizado" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -295,11 +322,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CompraTest.deveUtilizarUmConversorTotalmenteCustomizado" />
         <item itemvalue="JUnit.ProdutoTest.deveGerarXmlComNomePrecoDescricaoCodigoAdequadosConverterPreco" />
         <item itemvalue="JUnit.CompraTest.deveSerializarLivroEMusica" />
         <item itemvalue="JUnit.CompraTest.deveSerializarColecoesImplicitas" />
         <item itemvalue="JUnit.CategoriaTest.deveSerializarUmCiclo" />
-        <item itemvalue="JUnit.CompraTest.deveSerializarDuasGeladeirasIguais" />
       </list>
     </recent_temporary>
   </component>
@@ -325,15 +352,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CompraTest_deveSerializarDuasGeladeirasIguais - 2020.09.01 at 12h 10m 03s.xml">
-      <configuration name="CompraTest.deveSerializarDuasGeladeirasIguais" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CategoriaTest_deveSerializarUmCiclo - 2020.09.01 at 12h 24m 39s.xml">
-      <configuration name="CategoriaTest.deveSerializarUmCiclo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CategoriaTest_deveSerializarUmCiclo - 2020.09.01 at 12h 26m 56s.xml">
-      <configuration name="CategoriaTest.deveSerializarUmCiclo" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CompraTest_deveSerializarColecoesImplicitas - 2020.09.06 at 13h 26m 34s.xml">
       <configuration name="CompraTest.deveSerializarColecoesImplicitas" configurationId="JUnit" />
     </history-entry>
@@ -354,6 +372,15 @@
     </history-entry>
     <history-entry file="ProdutoTest_deveGerarXmlComNomePrecoDescricaoCodigoAdequadosConverterPreco - 2020.09.06 at 14h 09m 15s.xml">
       <configuration name="ProdutoTest.deveGerarXmlComNomePrecoDescricaoCodigoAdequadosConverterPreco" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProdutoTest_deveGerarXmlComNomePrecoDescricaoCodigoAdequadosConverterPreco - 2020.09.06 at 14h 17m 14s.xml">
+      <configuration name="ProdutoTest.deveGerarXmlComNomePrecoDescricaoCodigoAdequadosConverterPreco" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompraTest_deveUtilizarUmConversorTotalmenteCustomizado - 2020.09.06 at 15h 09m 24s.xml">
+      <configuration name="CompraTest.deveUtilizarUmConversorTotalmenteCustomizado" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CompraTest_deveUtilizarUmConversorTotalmenteCustomizado - 2020.09.06 at 15h 13m 48s.xml">
+      <configuration name="CompraTest.deveUtilizarUmConversorTotalmenteCustomizado" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -394,18 +421,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/Compra.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
-            <element signature="e#985#986#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/Produto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -484,16 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/CompraTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2219">
-          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/PrecoConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -522,10 +527,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/ProdutoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="41" column="79" selection-start-line="41" selection-start-column="79" selection-end-line="41" selection-end-column="79" />
+        <state relative-caret-position="161">
+          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/Compra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/br/com/caelum/xstream/CompraTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="174" column="45" lean-forward="true" selection-start-line="174" selection-start-column="45" selection-end-line="174" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/caelum/xstream/CompraDiferenteConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#779#780#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
           </folding>
         </state>
       </provider>
